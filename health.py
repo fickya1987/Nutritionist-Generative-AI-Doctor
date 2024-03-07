@@ -34,9 +34,9 @@ def input_image_setup(uploaded_file):
     
 ##initialize our streamlit app
 
-st.set_page_config(page_title="Gemini Health App")
+st.set_page_config(page_title="Gaman E-Commerce Supply Chain System")
 
-st.header("Gemini Health App")
+st.header("Gaman E-Commerce Supply Chain System")
 input=st.text_input("Input Prompt: ",key="input")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
@@ -48,16 +48,8 @@ if uploaded_file is not None:
 submit=st.button("Tell me the total calories")
 
 input_prompt="""
-You are an expert in nutritionist where you need to see the food items from the image
-               and calculate the total calories, also provide the details of every food items with calories intake
-               is below format
-
-               1. Item 1 - no of calories
-               2. Item 2 - no of calories
-               ----
-               ----
-               
-               finally you can also mention whether the food is healthy or not and also mention the percentage split of the ratio of carbohydrates, fibers, sugars and other important nutrients and other things required in our diet.
+You are an expert in supply chain logistics and e-commerce businesses where you need to see the e-commerce items from the image
+               and estimate the name of the e-commerce products, place to buy, the pro duct pricing, the latest information of the product and other important information related to the product logistics.Finally you can also mention the other substitution or complementary of the products.
 
 
 """
