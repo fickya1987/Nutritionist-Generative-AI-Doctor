@@ -45,7 +45,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded Image.", use_column_width=True)
 
 
-submit=st.button("Tell me the total calories")
+submit=st.button("Tell me more about the products and supply chain info")
 
 input_prompt="""
 You are an expert in supply chain logistics and e-commerce businesses where you need to see the e-commerce items from the image
