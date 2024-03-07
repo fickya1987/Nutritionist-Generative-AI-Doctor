@@ -49,7 +49,7 @@ submit=st.button("Tell me more about the products and supply chain info")
 
 input_prompt="""
 You are an expert in supply chain logistics and e-commerce businesses where you need to see the e-commerce items from the image
-               and estimate the name of the e-commerce products, place to buy, the pro duct pricing, the latest information of the product and other important information related to the product logistics.Finally you can also mention the other substitution or complementary of the products.
+               and estimate the name of the e-commerce products, place to buy, the product pricing, the latest information of the product and other important information related to the product logistics. Also, explain about how the product been manufactured, what kind of warehouse and replenishment. And also tell about how the product shipped from origin country to another countries through export trade. Finally you can also mention the other substitution or complementary of the products.
 
 
 """
